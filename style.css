@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #e09f3e;
+}
+h4{
+    margin-top: 20px;
+    text-align: center;
+    color: #e09f3e;
+}
+body{
+    background-color: #335c67;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 55vmin;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.playerChoice{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+img:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.scoreboard{
+    height: 15vmin;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.you{
+    font-size: 3rem;
+    color: #e09f3e;
+}
+.comp{
+    font-size: 3rem;
+    color: #e09f3e;
+}
+.youScore{
+    font-size: 1.5rem;
+    color: #e09f3e;
+}
+.compScore{
+    font-size: 1.5rem;
+    color: #e09f3e;
+}
+#reset{
+    font-size: 1.5rem;
+    background-color: #e09f3e;
+    color: #fff3b0;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+.hide{
+    display: none;
+}
